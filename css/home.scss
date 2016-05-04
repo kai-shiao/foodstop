@@ -1,0 +1,14 @@
+@import 'variables';
+
+.navbar-header>button:first-of-type{
+	margin-left: $ten;
+	margin-top: $ten;
+}
+
+.caret{
+	margin-left: 5px;
+}
+
+.bold{
+	font-weight: bold;
+}
