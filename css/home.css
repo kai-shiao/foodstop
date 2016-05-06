@@ -18,4 +18,7 @@ button {
   border-color: #0088cc;
   background-color: #0088cc; }
 
+.navbar-default .navbar-header .navbar-toggle .icon-bar {
+  background-color: #000000; }
+
 /*# sourceMappingURL=home.css.map */
