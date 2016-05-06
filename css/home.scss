@@ -2,13 +2,33 @@
 
 .navbar-header>button:first-of-type{
 	margin-left: $ten;
-	margin-top: $ten;
+	margin-top: 12.5px;
+}
+
+.navbar{
+	background-color: $navbarColour;
 }
 
 .caret{
 	margin-left: 5px;
 }
 
-.bold{
-	font-weight: bold;
+.dropdown{
+	>a{
+		>strong{
+			color: $white;
+		}
+	}
+	>a:focus{
+		color: #FFFF00;
+	}
 }
+
+button{
+	border-color: $navbarColour;
+	background-color: $navbarColour;
+}
+
+
+
+
