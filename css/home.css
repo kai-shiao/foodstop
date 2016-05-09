@@ -2,9 +2,13 @@
 .navbar-header > button:first-of-type {
   margin-left: 10px;
   margin-top: 12.5px; }
+.navbar-header > .navbar-toggle {
+  background-color: #e7e7e7; }
 
 .navbar {
-  background-color: #0088cc; }
+  background-color: #25E832;
+  border-color: #25E832;
+  margin-bottom: 0; }
 
 .caret {
   margin-left: 5px; }
@@ -12,13 +16,32 @@
 .dropdown > a > strong {
   color: #FFFFFF; }
 .dropdown > a:focus {
-  color: #FFFF00; }
+  color: #FF0000; }
 
 button {
-  border-color: #0088cc;
-  background-color: #0088cc; }
+  background-color: #FFFFFF; }
+
+button:hover {
+  background-color: #FF0000;
+  cursor: pointer; }
 
 .navbar-default .navbar-header .navbar-toggle .icon-bar {
   background-color: #000000; }
+
+.navbar-default .navbar-nav > .open > a:focus {
+  background-color: red; }
+
+.jumbotron {
+  background-color: #0088cc;
+  margin: 0 auto; }
+  .jumbotron > .container {
+    text-align: right; }
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .navbar-header > button {
+    margin: 0 auto; } }
+@media (min-width: 768px) and (max-width: 992px) {
+  .jumbotron > .container {
+    width: 80%; } }
 
 /*# sourceMappingURL=home.css.map */
