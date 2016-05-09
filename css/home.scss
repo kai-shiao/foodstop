@@ -1,12 +1,19 @@
 @import 'variables';
 
-.navbar-header>button:first-of-type{
-	margin-left: $ten;
-	margin-top: 12.5px;
+.navbar-header{
+	>button:first-of-type{
+		margin-left: $ten;
+		margin-top: 12.5px;
+	}
+	>.navbar-toggle{
+		background-color: #e7e7e7;
+	}
 }
 
 .navbar{
-	background-color: $navbarColour;
+	background-color: $lightGreen;
+	border-color: $lightGreen;
+	margin-bottom: 0;
 }
 
 .caret{
@@ -20,17 +27,47 @@
 		}
 	}
 	>a:focus{
-		color: #FFFF00;
+		color: $red;
 	}
 }
 
 button{
-	border-color: $navbarColour;
-	background-color: $navbarColour;
+	background-color: $white;
+}
+
+button:hover{
+	background-color: $red;
+	cursor: pointer;
 }
 
 .navbar-default .navbar-header .navbar-toggle .icon-bar {
     background-color: $black;
 }
 
+.navbar-default .navbar-nav > .open > a:focus{
+    background-color: red;
+}
 
+.jumbotron{
+	background-color: $blueVariant;
+	margin: 0 auto;
+	>.container{
+		text-align: right;
+	} 
+}
+
+@media (min-width:768px) and (max-width:1200px){
+	.navbar-header{
+		>button{
+			margin: 0 auto;
+		}
+	}
+}
+
+@media (min-width:768px) and (max-width:992px){
+	.jumbotron{
+		>.container{
+			width: 80%;
+		}
+	}
+}
