@@ -1,52 +1,5 @@
 @import 'variables';
-
-.navbar-header{
-	>button:first-of-type{
-		margin-left: $ten;
-		margin-top: 12.5px;
-	}
-	>.navbar-toggle{
-		background-color: #e7e7e7;
-	}
-}
-
-.navbar{
-	background-color: $lightGreen;
-	border-color: $lightGreen;
-	margin-bottom: 0;
-}
-
-.caret{
-	margin-left: 5px;
-}
-
-.dropdown{
-	>a{
-		>strong{
-			color: $white;
-		}
-	}
-	>a:focus{
-		color: $red;
-	}
-}
-
-button{
-	background-color: $white;
-}
-
-button:hover{
-	background-color: $red;
-	cursor: pointer;
-}
-
-.navbar-default .navbar-header .navbar-toggle .icon-bar {
-    background-color: $black;
-}
-
-.navbar-default .navbar-nav > .open > a:focus{
-    background-color: red;
-}
+@import 'navbar';
 
 .jumbotron{
 	background-color: $blueVariant;
@@ -56,14 +9,6 @@ button:hover{
 	} 
 }
 
-@media (min-width:768px) and (max-width:1200px){
-	.navbar-header{
-		>button{
-			margin: 0 auto;
-		}
-	}
-}
-
 @media (min-width:768px) and (max-width:992px){
 	.jumbotron{
 		>.container{
@@ -71,3 +16,4 @@ button:hover{
 		}
 	}
 }
+
