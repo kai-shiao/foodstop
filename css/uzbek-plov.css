@@ -1,4 +1,3 @@
-/*Colours*/
 .navbar-header > button:first-of-type {
   margin-left: 10px;
   margin-top: 12.5px; }
@@ -28,27 +27,166 @@ button:hover {
 .navbar-default .navbar-header .navbar-toggle .icon-bar {
   background-color: #000000; }
 
-.navbar-default .navbar-nav > .open > a:focus {
+.navbar-default .navbar-nav .open > a:focus {
   background-color: red; }
 
-@media (min-width: 768px) and (max-width: 1200px) {
+@media (min-width: 768px) and (max-width: 1199px) {
   .navbar-header > button {
     margin: 0 auto; } }
-@media (min-width: 768px) and (max-width: 992px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .navbar-header {
     margin-left: 40%; }
 
   .navbar-collapse {
     margin-left: 10%;
-    margin-top: 40px; } }
-@media (min-width: 992px) and (max-width: 1200px) {
+    margin-top: 30px; } }
+@media (min-width: 992px) and (max-width: 1199px) {
   .navbar-collapse {
-    margin-left: 20%;
-    margin-top: 5px; } }
-/*img{
-	width: 80%;
-}*/
-.row > .jumbotron > h1 {
-  padding: 20px; }
+    margin-left: 2.5%;
+    margin-top: 0px; } }
+@media (min-width: 1200px) {
+  .navbar-header {
+    margin-left: 7.5%; } }
+.col-md-offset-1 .col-md-5 > img {
+  padding: 0; }
+
+div[class="col-xs-12 col-sm-offset-1.5 col-sm-10.5 col-md-4 col-lg-4"], .row:nth-of-type(3) > div:first-of-type {
+  border: 3px solid black;
+  border-radius: 5px; }
+
+@media (max-width: 991px) {
+  div.row:nth-of-type(2) > div:first-of-type {
+    margin-top: 20px; }
+
+  .row:nth-of-type(3) > div:first-of-type {
+    margin-top: 20px; } }
+@media (max-width: 767px) {
+  /*For ensuring the whitespace on both sides are equal.*/
+  .row:nth-of-type(2) > div:first-of-type {
+    margin-left: 10px;
+    margin-top: 15px;
+    width: 96%; }
+
+  /*For ensuring that the black line underneath the heading is the same width as all other page content.*/
+  .row:nth-of-type(1) > p {
+    border-bottom: 5px solid black;
+    margin-left: 2.5%;
+    margin-top: 60px;
+    width: 95%; }
+
+  .row:nth-of-type(2) > div:first-of-type > h1 {
+    font-size: 25px;
+    font-weight: bold; }
+
+  .row:nth-of-type(3) > div:first-of-type > h1 {
+    font-size: 25px;
+    font-weight: bold; }
+  .row:nth-of-type(3) > div:first-of-type > h2 {
+    font-size: 18px;
+    font-weight: bold; }
+
+  .row:nth-of-type(3) > div:first-of-type {
+    margin-left: 10px;
+    margin-top: 15px;
+    width: 96%; } }
+@media (min-width: 768px) and (max-width: 991px) {
+  /*For ensuring the whitespace on both sides are equal.*/
+  .row:nth-of-type(2) > div:first-of-type {
+    margin-left: 10px;
+    margin-top: 15px;
+    width: 97.5%; }
+
+  /*for creating a box equal in height to the picture.*/
+  .row:nth-of-type(2) > div:first-of-type {
+    padding-bottom: 0px; }
+
+  /*For ensuring that the black line underneath the heading is the same width as all other page content.*/
+  .row:nth-of-type(1) > p {
+    border-bottom: 5px solid black;
+    margin-left: 15px;
+    margin-top: 60px;
+    width: 96%; }
+
+  .row:nth-of-type(3) > div:first-of-type {
+    margin-left: 10px;
+    margin-top: 15px;
+    width: 97.5%; }
+
+  .row:nth-of-type(2) > div:first-of-type > h1 {
+    font-size: 20px;
+    font-weight: bold; }
+
+  .row:nth-of-type(3) > div:first-of-type > h1 {
+    font-size: 20px;
+    font-weight: bold; }
+  .row:nth-of-type(3) > div:first-of-type > h2 {
+    font-size: 16px;
+    font-weight: bold; } }
+@media (min-width: 992px) and (max-width: 1199px) {
+  .row:nth-of-type(1) > h1 {
+    margin-left: 70px; }
+
+  /*For ensuring that the black line underneath the heading is the same width as all other page content.*/
+  .row:nth-of-type(1) > p {
+    border-bottom: 5px solid black;
+    margin-left: 85px;
+    margin-top: 60px;
+    width: 81.5%; }
+
+  .row:nth-of-type(2) > img {
+    margin-left: 70px; }
+
+  /*for creating a box equal in height to the picture.*/
+  .row:nth-of-type(2) > div:first-of-type {
+    padding-bottom: 10px; }
+
+  .row:nth-of-type(3) > div:first-of-type {
+    margin-left: 85px;
+    margin-top: 15px;
+    width: 82%; }
+
+  .row:nth-of-type(2) > div:first-of-type > h1 {
+    font-size: 20px;
+    font-weight: bold; }
+
+  .row:nth-of-type(3) > div:first-of-type > h1 {
+    font-size: 20px;
+    font-weight: bold; }
+  .row:nth-of-type(3) > div:first-of-type > h2 {
+    font-size: 16px;
+    font-weight: bold; } }
+@media (min-width: 1200px) {
+  .row:nth-of-type(1) > h1 {
+    margin-left: 80px; }
+
+  .row:nth-of-type(2) > img {
+    margin-left: 85px; }
+
+  /*For ensuring that the black line underneath the heading is the same width as all other page content.*/
+  .row:nth-of-type(1) > p {
+    border-bottom: 5px solid black;
+    margin-left: 100px;
+    margin-top: 110px;
+    width: 82%; }
+
+  /*for creating a box equal in height to the picture.*/
+  .row:nth-of-type(2) > div:first-of-type {
+    padding-bottom: 80px; }
+
+  .row:nth-of-type(3) > div:first-of-type {
+    margin-left: 100px;
+    margin-top: 15px;
+    width: 82.5%; }
+
+  .row:nth-of-type(2) > div:first-of-type > h1 {
+    font-size: 20px;
+    font-weight: bold; }
+
+  .row:nth-of-type(3) > div:first-of-type > h1 {
+    font-size: 20px;
+    font-weight: bold; }
+  .row:nth-of-type(3) > div:first-of-type > h2 {
+    font-size: 16px;
+    font-weight: bold; } }
 
 /*# sourceMappingURL=uzbek-plov.css.map */
