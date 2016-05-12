@@ -1,10 +1,10 @@
 .navbar-header{
 	>button:first-of-type{
-		margin-left: $ten;
+		margin-left: 10px;
 		margin-top: 12.5px;
 	}
 	>.navbar-toggle{
-		background-color: #e7e7e7;
+		background-color: $grayVariant;
 	}
 }
 
@@ -42,11 +42,15 @@ button:hover{
     background-color: $black;
 }
 
-.navbar-default .navbar-nav > .open > a:focus{
-    background-color: red;
+.navbar-default .navbar-nav{
+	.open{
+		>a:focus{
+			background-color: red;
+		}
+	}
 }
 
-@media (min-width:768px) and (max-width:1200px){
+@media (min-width:768px) and (max-width:1199px){
 	.navbar-header{
 		>button{
 			margin: 0 auto;
@@ -54,21 +58,26 @@ button:hover{
 	}
 }
 
-@media (min-width:768px) and (max-width:992px){
+@media (min-width:768px) and (max-width:991px){
 	.navbar-header{
 		margin-left: 40%;
 	}
 	
 	.navbar-collapse{
 		margin-left:10%;
-		margin-top: 40px;
+		margin-top: 30px;
 	}
 }
 
-@media (min-width:992px) and (max-width:1200px){
-		.navbar-collapse{
-			margin-left:20%;
-			margin-top: 5px;
+@media (min-width:992px) and (max-width:1199px){
+	.navbar-collapse{
+		margin-left: 2.5%;
+		margin-top: 0px;
 	}
+}
 
+@media (min-width:1200px){
+	.navbar-header{
+		margin-left: 7.5%;
+	}
 }
