@@ -1,10 +1,150 @@
-@import '_variables';
-@import '_navbar';
+@import 'variables';
+@import 'navbar';
+@import 'mixins';
 
-/*img{
-	width: 80%;
-}*/
+.col-md-offset-1 .col-md-5>img{
+	padding: 0;
+}
 
-.row>.jumbotron>h1{
-	padding: 20px;
+div[class="col-xs-12 col-sm-offset-1.5 col-sm-10.5 col-md-4 col-lg-4"]{
+	border: 3px solid black;
+	border-radius: 5px;
+}
+
+.row:nth-of-type(3){
+	>div:first-of-type{
+		@extend div[class="col-xs-12 col-sm-offset-1.5 col-sm-10.5 col-md-4 col-lg-4"];
+	}
+}
+
+@media (max-width:991px){
+	div.row:nth-of-type(2){
+		>div:first-of-type{
+			margin-top: 20px;
+		}
+	}
+
+	.row:nth-of-type(3){
+		>div:first-of-type{
+			margin-top: 20px;	
+		}
+	}
+}
+
+@media (max-width:767px){
+	@include sizeAndPosition(10px,15px,96%);
+	
+	@include lineBelowHeading(2.5%,60px,95%);
+	
+	.row:nth-of-type(2){
+		>div:first-of-type{
+			>h1{
+				@include fontControl(25px);
+			}
+		}
+	}
+	
+	.row:nth-of-type(3){
+		>div:first-of-type{
+			>h1{
+				@include fontControl(25px);
+			}
+			>h2{
+				@include fontControl(18px);
+			}
+		}
+	}
+	
+	@include positionProceduresBox(10px,15px,96%);
+}
+
+@media (min-width:768px) and (max-width:991px){
+	@include sizeAndPosition(10px,15px,97.5%);
+
+	@include customPadding(0px);
+		
+	@include lineBelowHeading(15px,60px,96%);
+
+	@include positionProceduresBox(10px,15px,97.5%);
+	
+	.row:nth-of-type(2){
+		>div:first-of-type{
+			>h1{
+				@include fontControl(20px);
+			}
+		}
+	}
+	
+	.row:nth-of-type(3){
+		>div:first-of-type{
+			>h1{
+				@include fontControl(20px);
+			}
+			>h2{
+				@include fontControl(16px);
+			}
+		}
+	}
+}
+
+@media (min-width:992px) and (max-width:1199px){
+	@include h1(70px);
+	
+	@include lineBelowHeading(85px,60px,81.5%);
+	
+	@include img(70px);
+
+	@include customPadding(10px);
+	
+	@include positionProceduresBox(85px,15px,82%);
+
+	.row:nth-of-type(2){
+		>div:first-of-type{
+			>h1{
+				@include fontControl(20px);
+			}
+		}
+	}
+
+	.row:nth-of-type(3){
+		>div:first-of-type{
+			>h1{
+				@include fontControl(20px);
+			}
+			>h2{
+				@include fontControl(16px);
+			}
+		}
+	}
+}
+
+@media (min-width:1200px){	
+	@include h1(80px);
+	
+	@include img(85px);
+	
+	@include lineBelowHeading(100px,110px,82%);
+
+	@include customPadding(80px);
+
+	@include positionProceduresBox(100px,15px,82.5%);
+	
+	.row:nth-of-type(2){
+		>div:first-of-type{
+			>h1{
+				@include fontControl(20px);
+			}
+		}
+	}
+	
+	.row:nth-of-type(3){
+		>div:first-of-type{
+			>h1{
+				@include fontControl(20px);
+			}
+			>h2{
+				@include fontControl(16px);
+			}
+		}
+	}
 }
