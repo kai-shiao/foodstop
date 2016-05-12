@@ -1,0 +1,59 @@
+@mixin h1($left){
+	.row:nth-of-type(1){
+		>h1{
+			margin-left: $left;
+		}
+	}
+}
+
+@mixin lineBelowHeading($left,$top,$width){ /*For ensuring that the black line underneath the heading is the same width as all other page content.*/
+	.row:nth-of-type(1){
+		>p{
+			border-bottom: 5px solid black;
+			margin-left: $left;
+			margin-top: $top;
+			width: $width;
+		}
+	}
+}
+
+@mixin img($left){
+	.row:nth-of-type(2){
+		>img{
+			margin-left: $left;
+		}
+	}
+}
+
+@mixin customPadding($paddingBottom){ /*for creating a box equal in height to the picture.*/
+	.row:nth-of-type(2){
+		>div:first-of-type{
+			padding-bottom: $paddingBottom;
+		}
+	}
+}
+
+@mixin sizeAndPosition($left,$top,$width){ /*For ensuring the whitespace on both sides are equal.*/
+	.row:nth-of-type(2){
+		>div:first-of-type{
+			margin-left: $left;
+			margin-top: $top;
+			width: $width;
+		}
+	}
+}
+
+@mixin positionProceduresBox($left,$top,$width){
+	.row:nth-of-type(3){
+		>div:first-of-type{
+			margin-left: $left;
+			margin-top: $top;
+			width: $width;
+		}
+	}
+}
+
+@mixin fontControl($font-size){
+	font-size:$font-size;
+	font-weight: bold;
+}
