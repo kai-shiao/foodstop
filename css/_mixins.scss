@@ -53,6 +53,16 @@
 	}
 }
 
+@mixin positionCopyrightBox($left,$top,$width){
+	.row:nth-of-type(4){
+		>footer{
+			margin-left: $left;
+			margin-top: $top;
+			width: $width;
+		}
+	}
+}
+
 @mixin fontControl($font-size){
 	font-size:$font-size;
 	font-weight: bold;
