@@ -46,7 +46,10 @@ button:hover {
     margin-top: 0px; } }
 @media (min-width: 1200px) {
   .navbar-header {
-    margin-left: 7.5%; } }
+    margin-left: 10%; }
+
+  .navbar-collapse {
+    margin-left: -3%; } }
 .jumbotron {
   background-color: #0088cc;
   margin: 0 auto; }
