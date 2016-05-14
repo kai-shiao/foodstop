@@ -78,6 +78,10 @@ button:hover{
 
 @media (min-width:1200px){
 	.navbar-header{
-		margin-left: 7.5%;
+		margin-left: 10%;
+	}
+	
+	.navbar-collapse{
+		margin-left: -3%;
 	}
 }
