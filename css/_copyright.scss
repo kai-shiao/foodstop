@@ -1,0 +1,19 @@
+@media (max-width:991px){
+	.row:nth-of-type(4){
+		>footer{
+			>p{
+				@include fontControl(12px);
+			}
+		}
+	}
+}
+
+@media (min-width:992px){
+	.row:nth-of-type(4){
+		>footer{
+			>p{
+				@include fontControl(14px);
+			}
+		}
+	}
+}
