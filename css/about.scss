@@ -1,0 +1,43 @@
+@import 'variables';
+@import 'mixins';
+@import 'navbar';
+
+.row:nth-of-type(2){
+	>.jumbotron{
+		background-color: $blueVariant;
+		margin: 0 auto;
+		>.container{
+			width:80%;
+		}
+	}
+}
+
+@media (max-width:767px){
+	.jumbotron{
+		>.container{
+			>p{
+				@include fontControl(16px);
+			}
+		}
+	}
+}
+
+@media (max-width:991px){
+	.row:nth-of-type(3){
+		>footer{
+			>p{
+				@include fontControl(12px);
+			}
+		}
+	}
+}
+
+@media (min-width:992px){
+	.row:nth-of-type(3){
+		>footer{
+			>p{
+				@include fontControl(14px);
+			}
+		}
+	}
+}

@@ -167,7 +167,7 @@ div[class="col-xs-12 col-sm-offset-1.5 col-sm-10.5 col-md-4 col-lg-4"], .row:nth
 
   /*for creating a box equal in height to the picture.*/
   .row:nth-of-type(2) > div:first-of-type {
-    padding-bottom: 10px; }
+    padding-bottom: 70px; }
 
   .row:nth-of-type(3) > div:first-of-type {
     margin-left: 85px;
@@ -178,7 +178,7 @@ div[class="col-xs-12 col-sm-offset-1.5 col-sm-10.5 col-md-4 col-lg-4"], .row:nth
     font-size: 20px;
     font-weight: bold; }
   .row:nth-of-type(2) > div:first-of-type > ul {
-    margin-top: 20px; }
+    margin-top: 30px; }
 
   .row:nth-of-type(3) > div:first-of-type > h1 {
     font-size: 20px;
@@ -207,7 +207,7 @@ div[class="col-xs-12 col-sm-offset-1.5 col-sm-10.5 col-md-4 col-lg-4"], .row:nth
 
   /*for creating a box equal in height to the picture.*/
   .row:nth-of-type(2) > div:first-of-type {
-    padding-bottom: 60px; }
+    padding-bottom: 160px; }
 
   .row:nth-of-type(3) > div:first-of-type {
     margin-left: 100px;
@@ -218,7 +218,7 @@ div[class="col-xs-12 col-sm-offset-1.5 col-sm-10.5 col-md-4 col-lg-4"], .row:nth
     font-size: 20px;
     font-weight: bold; }
   .row:nth-of-type(2) > div:first-of-type > ul {
-    margin-top: 30px; }
+    margin-top: 50px; }
 
   .row:nth-of-type(3) > div:first-of-type > h1 {
     font-size: 20px;
@@ -232,4 +232,4 @@ div[class="col-xs-12 col-sm-offset-1.5 col-sm-10.5 col-md-4 col-lg-4"], .row:nth
     margin-top: 20px;
     width: 85%; } }
 
-/*# sourceMappingURL=uzbek-plov.css.map */
+/*# sourceMappingURL=beef-noodle-soup.css.map */

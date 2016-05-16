@@ -7,13 +7,15 @@
 }
 
 @mixin lineBelowHeading($left,$top,$width){ /*For ensuring that the black line underneath the heading is the same width as all other page content.*/
-	.row:nth-of-type(1){
-		>p{
-			border-bottom: 5px solid black;
-			margin-left: $left;
-			margin-top: $top;
-			width: $width;
-		}
+	.container{
+		>.row:nth-of-type(1){
+			>p{
+				border-bottom: 5px solid black;
+				margin-left: $left;
+				margin-top: $top;
+				width: $width;
+			}
+		}	
 	}
 }
 

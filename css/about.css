@@ -46,18 +46,27 @@ button:hover {
     margin-top: 0px; } }
 @media (min-width: 1200px) {
   .navbar-header {
-    margin-left: 10%; }
+    margin-left: 12.5%; }
 
   .navbar-collapse {
     margin-left: -3%; } }
-.jumbotron {
+.row:nth-of-type(2) > .jumbotron {
   background-color: #0088cc;
   margin: 0 auto; }
-  .jumbotron > .container {
-    text-align: right; }
+  .row:nth-of-type(2) > .jumbotron > .container {
+    width: 80%; }
 
-@media (min-width: 768px) and (max-width: 992px) {
-  .jumbotron > .container {
-    width: 80%; } }
+@media (max-width: 767px) {
+  .jumbotron > .container > p {
+    font-size: 16px;
+    font-weight: bold; } }
+@media (max-width: 991px) {
+  .row:nth-of-type(3) > footer > p {
+    font-size: 12px;
+    font-weight: bold; } }
+@media (min-width: 992px) {
+  .row:nth-of-type(3) > footer > p {
+    font-size: 14px;
+    font-weight: bold; } }
 
-/*# sourceMappingURL=home.css.map */
+/*# sourceMappingURL=about.css.map */

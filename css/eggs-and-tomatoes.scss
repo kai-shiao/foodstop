@@ -1,6 +1,7 @@
 @import 'variables';
 @import 'navbar';
 @import 'mixins';
+@import 'copyright';
 
 .col-md-offset-1 .col-md-5>img{
 	padding: 0;
@@ -66,14 +67,6 @@ div[class="col-xs-12 col-sm-offset-1.5 col-sm-10.5 col-md-4 col-lg-4"]{
 	@include positionProceduresBox(10px,15px,96%);
 
 	@include positionCopyrightBox(45px,20px,85%);
-	
-	.row:nth-of-type(4){
-		>footer{
-			>p{
-				@include fontControl(12px);
-			}
-		}
-	}
 }
 
 @media (min-width:768px) and (max-width:991px){
@@ -105,14 +98,6 @@ div[class="col-xs-12 col-sm-offset-1.5 col-sm-10.5 col-md-4 col-lg-4"]{
 	}
 	
 	@include positionCopyrightBox(0px,20px,100%);
-	
-	.row:nth-of-type(4){
-		>footer{
-			>p{
-				@include fontControl(12px);
-			}
-		}
-	}
 }
 
 @media (min-width:992px) and (max-width:1199px){
@@ -146,14 +131,6 @@ div[class="col-xs-12 col-sm-offset-1.5 col-sm-10.5 col-md-4 col-lg-4"]{
 	}
 	
 	@include positionCopyrightBox(72.5px,20px,85%);
-
-	.row:nth-of-type(4){
-		>footer{
-			>p{
-				@include fontControl(14px);
-			}
-		}
-	}
 }
 
 @media (min-width:1200px){	
@@ -201,12 +178,4 @@ div[class="col-xs-12 col-sm-offset-1.5 col-sm-10.5 col-md-4 col-lg-4"]{
 	}
 	
 	@include positionCopyrightBox(90px,20px,85%);
-
-	.row:nth-of-type(4){
-		>footer{
-			>p{
-				@include fontControl(14px);
-			}
-		}
-	}
 }
