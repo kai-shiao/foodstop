@@ -12,23 +12,21 @@
 .caret {
   margin-left: 5px; }
 
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+  background-color: red; }
+
 .dropdown > a > strong {
-  color: #FFFFFF; }
-.dropdown > a:focus {
-  color: red; }
+  color: white; }
+
+.navbar-nav > .text-center > a > strong {
+  color: white; }
 
 button {
-  background-color: #FFFFFF; }
+  background-color: white; }
 
 button:hover {
   background-color: red;
   cursor: pointer; }
-
-.navbar-default .navbar-header .navbar-toggle .icon-bar {
-  background-color: #000000; }
-
-.navbar-default .navbar-nav .open > a:focus {
-  background-color: red; }
 
 @media (min-width: 768px) and (max-width: 1199px) {
   .navbar-header > button {

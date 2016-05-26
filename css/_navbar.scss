@@ -18,36 +18,40 @@
 	margin-left: 5px;
 }
 
+.dropdown-menu{
+	>li{
+		>a:hover,>a:focus{
+			background-color:red;
+		}
+	}
+}
+
 .dropdown{
 	>a{
 		>strong{
-			color: $white;
+			color: white;
 		}
+		
 	}
-	>a:focus{
-		color: red;
+}
+
+.navbar-nav{
+	>.text-center{
+		>a{
+			>strong{
+				color: white;
+			}
+		}
 	}
 }
 
 button{
-	background-color: $white;
+	background-color: white;
 }
 
 button:hover{
 	background-color: red;
 	cursor: pointer;
-}
-
-.navbar-default .navbar-header .navbar-toggle .icon-bar {
-    background-color: $black;
-}
-
-.navbar-default .navbar-nav{
-	.open{
-		>a:focus{
-			background-color: red;
-		}
-	}
 }
 
 @media (min-width:768px) and (max-width:1199px){
@@ -84,4 +88,8 @@ button:hover{
 	.navbar-collapse{
 		margin-left: -3%;
 	}
+}
+
+body{
+	overflow-x: hidden;
 }

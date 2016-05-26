@@ -1,0 +1,117 @@
+.navbar-header > button:first-of-type {
+  margin-left: 10px;
+  margin-top: 12.5px; }
+.navbar-header > .navbar-toggle {
+  background-color: #e7e7e7; }
+
+.navbar {
+  background-color: #25E832;
+  border-color: #25E832;
+  margin-bottom: 0; }
+
+.caret {
+  margin-left: 5px; }
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+  background-color: red; }
+
+.dropdown > a > strong {
+  color: white; }
+
+.navbar-nav > .text-center > a > strong {
+  color: white; }
+
+button {
+  background-color: white; }
+
+button:hover {
+  background-color: red;
+  cursor: pointer; }
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .navbar-header > button {
+    margin: 0 auto; } }
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar-header {
+    margin-left: 40%; }
+
+  .navbar-collapse {
+    margin-left: 10%;
+    margin-top: 30px; } }
+@media (min-width: 992px) and (max-width: 1199px) {
+  .navbar-collapse {
+    margin-left: 2.5%;
+    margin-top: 0px; } }
+@media (min-width: 1200px) {
+  .navbar-header {
+    margin-left: 12.5%; }
+
+  .navbar-collapse {
+    margin-left: -3%; } }
+.row:last-of-type > footer > p {
+  margin: 0; }
+
+@media (max-width: 991px) {
+  .container > .row:last-of-type > footer > p {
+    font-size: 12px;
+    font-weight: bold; } }
+@media (min-width: 992px) {
+  .container > .row:last-of-type > footer > p {
+    font-size: 14px;
+    font-weight: bold; } }
+@media (max-width: 767px) {
+  /*For ensuring that the black line underneath the heading is the same width as all other page content.*/
+  .container > .row:nth-of-type(1) > p {
+    border-bottom: 5px solid black;
+    margin-left: 2.5%;
+    margin-top: 60px;
+    width: 95%; }
+
+  .row:nth-of-type(4) > footer {
+    margin-left: 25px;
+    margin-top: 20px;
+    width: 90%; } }
+@media (min-width: 768px) and (max-width: 991px) {
+  /*For ensuring that the black line underneath the heading is the same width as all other page content.*/
+  .container > .row:nth-of-type(1) > p {
+    border-bottom: 5px solid black;
+    margin-left: 15px;
+    margin-top: 60px;
+    width: 96%; }
+
+  .row:nth-of-type(4) > footer {
+    margin-left: 0px;
+    margin-top: 20px;
+    width: 100%; } }
+@media (min-width: 992px) and (max-width: 1199px) {
+  h1 {
+    margin-left: 70px; }
+
+  /*For ensuring that the black line underneath the heading is the same width as all other page content.*/
+  .container > .row:nth-of-type(1) > p {
+    border-bottom: 5px solid black;
+    margin-left: 85px;
+    margin-top: 60px;
+    width: 81.5%; }
+
+  .row:nth-of-type(4) > footer {
+    margin-left: 72.5px;
+    margin-top: 20px;
+    width: 85%; } }
+@media (min-width: 1200px) {
+  h1 {
+    margin-left: 80px; }
+
+  /*For ensuring that the black line underneath the heading is the same width as all other page content.*/
+  .container > .row:nth-of-type(1) > p {
+    border-bottom: 5px solid black;
+    margin-left: 100px;
+    margin-top: 60px;
+    width: 82%; }
+
+  .row:nth-of-type(4) > footer {
+    margin-left: 90px;
+    margin-top: 20px;
+    width: 85%; } }
+
+/*# sourceMappingURL=confirmation.css.map */

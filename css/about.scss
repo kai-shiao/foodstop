@@ -12,6 +12,15 @@
 	}
 }
 
+.row:nth-of-type(3){
+	>footer{
+		margin-top: 20px;
+		>p{
+			margin: 0;
+		}
+	}
+}
+
 @media (max-width:767px){
 	.jumbotron{
 		>.container{
