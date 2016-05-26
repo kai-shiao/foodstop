@@ -7,7 +7,7 @@
 	$('footer').html($htmlMarkup);
 
 	function homePage(){
-		location.href='home.html';
+		location.href='about';
 	}
 
 	function facebookPage(){

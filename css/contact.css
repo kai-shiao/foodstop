@@ -48,6 +48,9 @@ button:hover {
 
   .navbar-collapse {
     margin-left: -3%; } }
+body {
+  overflow-x: hidden; }
+
 .row:nth-of-type(3) > footer {
   margin-top: 20px; }
   .row:nth-of-type(3) > footer > p {
